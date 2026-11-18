@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local data and model artifacts
+data/raw/
+data/processed/
+data/private/
+models/
+*.parquet
+*.gpkg
+*.osm.pbf
+
+# Local environment/editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
